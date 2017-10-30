@@ -16,7 +16,6 @@ for i in range(1,len(ips) + 1):
         print(word)
         word = []
         word.append(ips[i])
-        continue
     else:
         word.append(ips[i])
     
